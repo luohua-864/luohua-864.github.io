@@ -12,7 +12,7 @@ github_repo: "https://github.com/mumium/mumium.github.io.git" # you code reposit
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "不知道用什么做头像所以就随便放个图了"
-sidebar-avatar: /img/about-someone.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/star-cat.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
