@@ -1,0 +1,28 @@
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: qiubaiying
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: d18b343dd9c7ca49518a                            #生成的clientID
+  clientSecret: 539e88b8a7feffaddbb553b9c421dfefcbc6eced    #生成的clientSecret
+  repo: klovien.github.io    #仓库名称
+  owner: klovien    #github用户名
+  admin: klovien
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
+
+# Google Analytics
+# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+# ga_domain: auto              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
