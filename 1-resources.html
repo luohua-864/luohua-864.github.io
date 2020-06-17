@@ -5,13 +5,6 @@ description: "独乐乐不如众乐乐"
 header-img: "img/post-bg-rwd.jpg"
 ---
 
-<!-- Language Selector -->
-<!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 中文 Chinese </option>
-    <option value="1"> 英文 English </option>
-</select> -->
-
-<!-- Chinese Version -->
 <div class="zh post-container">
 
     <!--copied from markdown -->
@@ -50,13 +43,6 @@ header-img: "img/post-bg-rwd.jpg"
 <li><a href="{{site.baseurl}}/files/三叶语词汇表_V0.6.pdf">三叶语词汇表 (V0.6)</a></li>
 </ul>
 
-<h3 id="toc_3">网站类</h3>
-
-<ul>
-<li>人造语言维基（中文）：<a href="https://yuyan.fandom.com/zh/wiki/%E4%B8%89%E5%8F%B6%E8%8D%89%E5%9B%BD%E9%99%85%E8%AF%AD">三叶草国际语</a></li>
-<li>Conlang维基 (English)：<a href="https://conlang.fandom.com/wiki/Klovien_%E4%B8%89%E5%8F%B6%E8%AF%AD">Klovien 三叶语</a></li>
-<li>百度人造语言吧：<a href="https://tieba.baidu.com/p/6009002082">三叶草国际语</a></li>
-</ul>
 
 <hr>
 
@@ -68,65 +54,3 @@ header-img: "img/post-bg-rwd.jpg"
 <small>
         
 </div>
-
-<!-- English Version -->
-<!-- <div class="en post-container">
-    <blockquote><p>Yet another iOS Developer. <br>
-    Yet another Life-long Student.</p></blockquote>
-
-    <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
-
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
-    
-    <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
-
-    <h5>Talks</h5>
-
-    <ul>
-    <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://qiubaiying.github.io">BY</a></li>
-    </ul>
-</div> -->
-
-<!-- Handle Language Change -->
-<script type="text/javascript">
-    // get nodes
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    var $select = document.querySelector("select");
-
-    // bind hashchange event
-    window.addEventListener('hashchange', _render);
-
-    // handle render
-    function _render(){
-        var _hash = window.location.hash;
-        // en
-        if(_hash == "#en"){
-            $select.selectedIndex = 1;
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        // zh by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }
-    }
-
-    // handle select change
-    function onLanChange(index){
-        if(index == 0){
-            window.location.hash = "#zh"
-        }else{
-            window.location.hash = "#en"
-        }
-    }
-
-    // init
-    _render();
-</script>
-
