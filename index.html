@@ -3,14 +3,6 @@ layout: page
 description: "过早谙于世事，意味着本性平庸"
 ---
 
-<!-- map code-->
-<div class="analytics"  style="border: solid lightgrey; border-radius: 5px;">
-	<h3 style="text-align:center"> Visitor Analytics </h3>
-	{% include clustrmap.html style="js" %}
-	<p style="text-align:center">  If you are not seeing a map, please disable Ad block </p>
-</div>
-
-
 
 {% for post in paginator.posts %}
 <div class="post-preview">
@@ -49,3 +41,12 @@ description: "过早谙于世事，意味着本性平庸"
     {% endif %}
 </ul>
 {% endif %}
+
+
+
+<!-- map code-->
+<div class="analytics"  style="border: solid lightgrey; border-radius: 5px;">
+	<h3 style="text-align:center"> Visitor Analytics </h3>
+	{% include clustrmap.html style="js" %}
+	<p style="text-align:center">  If you are not seeing a map, please disable Ad block </p>
+</div>
