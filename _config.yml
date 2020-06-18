@@ -66,3 +66,8 @@ friends: [
     }
 ]
 
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: e443db77fbe2a1c5d3b413c7b80a426f
