@@ -3,7 +3,7 @@ title: Unique_缪缪
 SEOTitle: Unique_缪缪 - 独乐乐不如众乐乐
 header-img: img/post-bg-swift.jpg
 email: mamingyu16@stu.zzu.edu.cn
-description: "这里为什么改不了？？？"
+description: "这里在index中修改"
 keyword: "缪缪, 资源共享, 难题记录, Unique_缪缪"
 url: "https://mumium.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -65,7 +65,7 @@ friends: [
         href: "https://space.bilibili.com/245762178"
     },{
         title: "3d-periodic-table",
-        href: "4-3d-periodic-table.html"
+        href: "https://mumium.github.io/4-3d-periodic-table.html"
     }
 ]
 
