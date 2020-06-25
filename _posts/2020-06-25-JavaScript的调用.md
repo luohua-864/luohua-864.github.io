@@ -1,11 +1,11 @@
 ---
 layout: post
 title: JavaScript的调用
-subtitle: 尝试在静态网页中调用JavaScript脚本
+subtitle: 在静态网页中调用JavaScript脚本
 date: 2020-06-25
 author: Unique_缪缪
 header-img: img/post-bg-keybord.jpg
-catalog: true
+catalog: false
 tags:
 - 设计心得
 ---
@@ -55,9 +55,8 @@ tags:
 
  那问题的关键应该是博客模板不能加载JavaScript。于是放弃在首页增加菜单的方式，改用超链接在本地链接静态网页。
 
-尝试之后JavaScript加载成功：
+尝试之后JavaScript加载成功，点击首页这里就可以进入：
 
 <img src="https://raw.githubusercontent.com/mumium/picture-bed/master/img/QQ%E6%88%AA%E5%9B%BE20200625162713.png" style="zoom:67%;" />
 
-点击首页这里就可以进入
 
