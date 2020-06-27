@@ -66,6 +66,9 @@ friends: [
     },{
         title: "3D元素周期表",
         href: "3d-periodic-table.html"
+   },{
+        title: "罗盘时钟",
+        href: "time.html"
     }
 ]
 
