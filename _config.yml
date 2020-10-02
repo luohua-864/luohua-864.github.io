@@ -1,18 +1,18 @@
 # Site settings
-title: Unique_缪缪
-SEOTitle: Unique_缪缪 - 独乐乐不如众乐乐
+title: 花落知多少
+SEOTitle: 花落知多少 - 独乐乐不如众乐乐
 header-img: img/post-bg-swift.jpg
-email: mamingyu16@stu.zzu.edu.cn
+email: jsluohua321@163.com
 description: "这里在index中修改"
 keyword: "缪缪, 资源共享, 难题记录, Unique_缪缪"
-url: "https://mumium.github.io/"          # your host, for absolute URL
+url: "https://luohua-863.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/mumium/mumium.github.io.git" # you code repository
+github_repo: "https://github.com/luohua-864/luohua-864.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "人类的悲欢并不相通"
-sidebar-avatar: /img/star-cat.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-someone.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
