@@ -1,10 +1,10 @@
 # Site settings
 title: 花落知多少
 SEOTitle: 花落知多少 - 独乐乐不如众乐乐
-header-img: img/post-bg-swift.jpg
+header-img: img/post-bg-autumn.jpg
 email: jsluohua321@163.com
 description: "这里在index中修改"
-keyword: "缪缪, 资源共享, 难题记录, Unique_缪缪"
+keyword: "luohua, 资源共享, 难题记录, luohua-864"
 url: "https://luohua-863.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/luohua-864/luohua-864.github.io.git" # you code repository
@@ -12,7 +12,7 @@ github_repo: "https://github.com/luohua-864/luohua-864.github.io.git" # you code
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "人类的悲欢并不相通，我只觉得他们吵闹"
-sidebar-avatar: /img/about-someone.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/star-js.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
